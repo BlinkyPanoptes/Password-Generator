@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background: #D6E6F2;
+    color: #000;
+}
+
+.box-container {
+    margin: 10% 15%;
+}
+
+.box-container h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.box-container h1 span {
+    color: #303481;
+    border-bottom: 4px solid #303481;
+}
+
+.input-display {
+    margin: 3% 0;
+    background: #ffffff;
+    width: 27.2vw;
+    height: 3.5%;
+    padding: 0.7rem 0.6rem;
+    border-radius: 5px;
+}
+
+.input-display input {
+    font-size: 1.5rem;
+    width: 26.5vw;
+    outline: 0;
+    border: 0;
+}
+
+.copy-btn img {
+    width: 0.9rem;
+    margin-left: 0.1rem;
+}
+
+.buttons button {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0 0.4rem;
+    outline: 0;
+    border: 0;
+    padding: 1.5rem 1rem;
+    background: #FFF200;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 1440px) {
+    .input-display {
+        margin: 3% 0;
+        background: #ffffff;
+        width: 29vw;
+        height: 3.5%;
+        padding: 0.7rem 0.6rem;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 595px) {
+    .input-display {
+        margin: 8% 0;
+        background: #ffffff;
+        width: 70vw;
+        height: 3.5%;
+        padding: 0.7rem 0.6rem;
+        border-radius: 5px;
+    }
+
+    .input-display input {
+        font-size: 1.5rem;
+        width: 65vw;
+        outline: 0;
+        border: 0;
+    }
+
+    .copy-btn img {
+        width: 0.5rem;
+        margin-left: 0.1rem;
+    }
+
+    .buttons button {
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin: 0.7rem 0.4rem;
+        outline: 0;
+        border: 0;
+        padding: 1.5rem 8rem;
+        background: #FFF200;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
